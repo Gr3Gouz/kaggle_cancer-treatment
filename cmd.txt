@@ -1,0 +1,1 @@
+java -Xms10240m -Xmx10240m -jar StackNet.jar train task=classification train_file=train_k.csv test_file=test_k.csv params=msk.txt pred_file=pred.csv Threads=1 folds=5 seed=1 metric=logloss
